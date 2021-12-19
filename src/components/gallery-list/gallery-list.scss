@@ -1,0 +1,40 @@
+.c-gallery-list {
+  line-height: 0;
+  -webkit-column-count: 5;
+  -webkit-column-gap: 0px;
+  -moz-column-count: 5;
+  -moz-column-gap: 0px;
+  column-count: 5;
+  column-gap: 0px;
+
+  .c-gallery-list-item {
+    object-fit: cover;
+    width: 98%;
+    cursor: pointer;
+    margin: 2px;
+    border-radius: 4px;
+  }
+}
+
+.modal-dialog {
+  max-width: unset;
+  display: flex;
+  justify-content: center;
+
+  .modal-content {
+    width: 80%;
+
+    .modal-body {
+      padding: 10px;
+
+      .c-gallery-modal {
+        display: flex;
+        flex-direction: column;
+
+        img {
+          align-self: center;
+        }
+      }
+    }
+  }
+}
