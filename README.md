@@ -18,6 +18,9 @@ You will also see any lint errors in the console.
 Flicker Gallery app allows user to see recent photos and search pictures.
 on each image click, a modal will display with enlarged image and dimensions (width and height).
 
+![image](https://user-images.githubusercontent.com/96389769/146695640-0e7be091-8503-483c-94ae-2746d4039e12.png)
+
+
 ### React:
 using react to create single page application, it uses virtual DOM ensures fast performance, perfoms better than any other js library/framework to build user interfaces.
 
